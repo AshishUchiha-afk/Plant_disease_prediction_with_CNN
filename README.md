@@ -1,6 +1,29 @@
 # Plant_disease_prediction_with_CNN
 A CNN-based model to predict plant diseases from leaf images using deep learning with TensorFlow and Keras.
 
+## ⚠️ Note on Model File Size & GitHub Limitations
+
+Due to GitHub's file upload limit of **100 MB**, the trained CNN model (`plant_disease_prediction_model.h5`) — which is approximately **500 MB** — cannot be stored directly in this repository.
+
+### 📥 How to Use the Model Locally
+
+To keep the project accessible and reproducible:
+
+1. **A placeholder link** to download the `.h5` model file from **Google Drive** is included in the `trained_model/` folder.
+2. Run the script in **app.py**.
+3. This allows you to run the **Streamlit app locally** without manually placing the model file.
+
+> 🔁 If you prefer, you can also manually download the `.h5` model from the provided Drive link and place it inside the `trained_model/` folder before running the app.
+
+---
+
+### 🚀 To Run the App Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+
 ## ⚙️ How to Run the Code Without Hassle in google colab
 
 Follow the steps below to get started easily:
