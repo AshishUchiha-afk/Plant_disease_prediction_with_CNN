@@ -79,7 +79,6 @@ This project uses a Convolutional Neural Network (CNN) to identify and classify 
 ## 🚀 Future Improvements
 
 - Add more plant types and diseases
-- Deploy the model via Flask or Streamlit for live predictions
 - Improve accuracy using transfer learning (e.g., MobileNet, EfficientNet)
 
 ---
