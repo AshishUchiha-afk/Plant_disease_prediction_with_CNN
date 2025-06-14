@@ -19,12 +19,11 @@ To keep the project accessible and reproducible:
 
 ### 🚀 To Run the App Locally
 
-```bash
 pip install -r requirements.txt
+
 streamlit run app.py
 
 ---
-
 
 ## ⚙️ How to Run the Code Without Hassle in google colab
 
